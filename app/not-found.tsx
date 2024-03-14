@@ -1,9 +1,6 @@
-import { Metadata } from 'next';
-
-export const metaData: Metadata = {
-  title: 'Not Found',
+export const metadata = {
+  title: 'not-found',
 };
-
 export default function NotFound() {
   return (
     <div>
